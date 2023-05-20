@@ -41,9 +41,9 @@ export const Slideshow = () => {
           <SwiperSlide className='flex justify-center items-center bg-[#FFFAF4]'>
             <div className='relative w-96 md:w-2/3' style={{height: "70vh", backgroundImage: `url(${slide.photo_url})`,backgroundSize: "cover"}}>
               <h1 className='absolute top-0 left-0 font-medium text-xl'>Trending Product</h1>
-              <div className='absolute left-0 bottom-0 px-5 py-2 bg-[#5f6262]'>
-                <h2 className='text-4xl font-bold text-white'>{slide.name}</h2>
-                <p className='text-lg font-medium text-amber-50'>{slide.price}</p>
+              <div className='absolute left-0 bottom-0 px-5 py-2 bg-white/30 backdrop-blur-sm backdrop-brightness-125'>
+                <h2 className='text-4xl font-bold'>{slide.name}</h2>
+                <p className='text-xl font-semibold text-[#2C3333]'>{slide.price}</p>
               </div>
             </div>
 

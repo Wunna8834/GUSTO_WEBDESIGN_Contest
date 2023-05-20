@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Nike air jordan 1 mid taxi 554724 701",
+        "name": "Nike Air Jordan 1",
         "price": "690000Ks",
         "category": "Sneakers",
         "description": "US-9.5 /UK-9/FR-43.5",
@@ -11,22 +11,22 @@
     },
     {
         "id": 2,
-        "name": "Estee Lauder Advanced night repair",
-        "price": "345000",
-        "category": "Skincare",
-        "description": "50ml",
-        "seller_name": "Su Pyae",
-        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684520257/SizeChanges2.jpg", 
+        "name": "OZWEEGO PURE",
+        "price": "190000Ks",
+        "category": "Sneakers",
+        "description": "US-9.5 /UK-9/FR-43.5",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684549844/Addidas.png", 
         "seller_photo": ""
     },
     {
         "id": 3,
-        "name": "Cropped Top",
-        "price": "35000Ks",
-        "category": "Casual wear",
-        "description": "H&M Women's tops",
+        "name": "Running Shoes Puma",
+        "price": "190000Ks",
+        "category": "Sneakers",
+        "description": "US-9/UK-8/EUR-42/CM-27",
         "seller_name": "Phone Pyae Htoo",
-        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684521245/cropped.jpg", 
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684550284/Puma.png", 
         "seller_photo": ""
     },
     {
