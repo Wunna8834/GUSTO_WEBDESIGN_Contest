@@ -28,7 +28,7 @@ export const Payment = ({onClick, totalPrice}) => {
           </div>
 
         
-          <div className="flex lg:gap-5 mt-7">
+          <div className="flex flex-col md:flex-row lg:gap-5 mt-7">
             <div className="w-32 h-40 sm:w-44 sm:h-auto mx-auto md:mx-2">
               <img
                 src="https://res.cloudinary.com/ddau1hn2z/image/upload/v1684520173/SizeChanges.png"
@@ -37,7 +37,7 @@ export const Payment = ({onClick, totalPrice}) => {
               />
             </div>
 
-            <div className="lg:mt-16">
+            <div className="">
               <div
                 className="flex gap-2"
               >
