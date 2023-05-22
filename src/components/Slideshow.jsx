@@ -22,12 +22,12 @@ export const Slideshow = () => {
     {
       id: 3,
       name: "Air Jordan",
-      price: 10000,
+      price: 500000,
       photo_url: "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684510892/AirJordan.png"
     },
   ]
   return (
-    <div className=''>
+    <div className=' group'>
       <Swiper
         modules={[Navigation, Pagination, A11y, Autoplay]}
         spaceBetween={10}
@@ -35,10 +35,10 @@ export const Slideshow = () => {
         pagination={{clickable: true}}
         loop={true}
         autoplay={{delay: 3000}}
-
+        className=''
       >
         {slides.map(slide => 
-          <SwiperSlide className='flex justify-center items-center bg-[#FFFAF4]'>
+          <SwiperSlide key={slide.id} className='flex justify-center items-center bg-[#FFFAF4]'>
             <div className='relative w-96 md:w-2/3' style={{height: "70vh", backgroundImage: `url(${slide.photo_url})`,backgroundSize: "cover"}}>
               <h1 className='absolute top-0 left-0 font-medium text-xl'>Trending Product</h1>
               <div className='absolute left-0 bottom-0 px-5 py-2 bg-white/30 backdrop-blur-sm backdrop-brightness-125'>

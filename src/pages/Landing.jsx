@@ -3,32 +3,50 @@ import { LandingNav } from '../components/navBars/LandingNav'
 import { CTA_Btn } from '../components/buttons/CTA_Btn'
 import './landing.css'
 import { SecondaryCard } from '../components/cards/SecondaryCard'
+import {Partnership} from '../components/Partnership'
 import Connect from '../assets/Connect.png'
 import Buy from '../assets/Buy.png'
 import Sell from '../assets/Sell.png'
 import { Footer } from '../components/footers/Footer'
+import {motion} from 'framer-motion'
+import { JoinBtn } from '../components/buttons/JoinBtn'
+import { Link } from 'react-router-dom'
 export const Landing = () => {
   return (
     <div>
         <div className="hero">
             <LandingNav />
-            <div className="w-full md:w-3/4 mx-auto mt-36 px-4 md:px-0">
+            <motion.div className="w-full md:w-3/4 mx-auto mt-36 px-4 md:px-0"
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                transition={{delay: 1.2, duration: 1.2}}
+            >
                 <h2 className="text-xl md:text-4xl font-medium">Unlock Limitless Possibilities: <br/> 
-                    <span className='mt-5'>Embrace the Peer-to-Peer Market Revolution</span>
+                    <span className='mt-5'>Embrace the Peer-to-Peer</span>
                 </h2>
                 <p className='mt-4 text-justify w-3/4 md:w-2/4'>There is no barrier for you. Whether you're an entrepreneur looking to launch your own business or a savvy consumer searching for unique products, our peer-to-peer market platform has got you covered. </p>
-                <CTA_Btn  className="bg-violet-500 px-5 py-2 text-white mt-6 hover:bg-violet-700 active:bg-violet-700">
-                    Register for Free
+                <CTA_Btn  className="bg-violet-500 px-5 py-2 text-white mt-6 hover:bg-violet-700 active:bg-violet-700"
+                    
+                >
+                    <Link to="/sign-up">Register for Free</Link>
                 </CTA_Btn>
-            </div>
+            </motion.div>
         </div>
         {/* Features */}
         <div className='w-full'>
-            <h2 className='text-center text-2xl font-medium'>
+            <motion.h2 className='text-center text-2xl font-medium'
+                initial={{opacity: 0}}
+                whileInView={{opacity: 1}}
+                transition={{delay: 1.5, duration: 1.6}}
+            >
                 Why wasting time? <br/>
                 There is no barrier for you
-            </h2>
-            <div className='flex flex-col md:flex-row justify-center items-center md:items-start gap-5 mt-5'>
+            </motion.h2>
+            <motion.div className='flex flex-col md:flex-row justify-center items-center md:items-start gap-5 mt-5'
+                initial={{opacity: 0}}
+                whileInView={{opacity: 1}}
+                transition={{delay: 1.2, duration: 0.7}}
+            >
                 {features.map(feature =>
                     <SecondaryCard key={feature.id}>
                         <div className='card hover:bg-slate-200 w-60 ps-4 pb-3'>
@@ -38,12 +56,10 @@ export const Landing = () => {
                         </div>
                     </SecondaryCard>    
                 )}
-            </div>
-            <div className='flex justify-center'>
-            <CTA_Btn className="bg-violet-500 px-5 py-2  text-white mt-6 hover:bg-violet-700 active:bg-violet-700">
-                Join Now
-            </CTA_Btn>
-            </div>
+            </motion.div>
+            <Link to='/sign-up' className='flex justify-center'>
+                <JoinBtn />
+            </Link >
         </div>
 
         {/* Testimonials */}
@@ -64,6 +80,7 @@ export const Landing = () => {
                 )}
             </div>
         </div>
+        <Partnership />
         <Footer />
     </div>
   )

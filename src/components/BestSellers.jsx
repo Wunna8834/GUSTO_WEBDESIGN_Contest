@@ -43,7 +43,7 @@ export const BestSellers = () => {
     },
   ]
   return (
-    <div className='md:px-20 mt-5'>
+    <div className='md:px-20 mt-5 -z-50'>
         <div className='flex justify-between items-center'>
             <h2 className='text-2xl font-semibold'>Top Sellers</h2>
             <a href="" className='underline text-slate-500'>See More</a>

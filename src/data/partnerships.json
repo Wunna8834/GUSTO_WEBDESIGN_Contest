@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "logo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684558170/MetamaskLogo.png"
+    },
+    {
+        "id": 2,
+        "logo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684558331/OdooBrand.png"
+    },
+    {
+        "id": 3,
+        "logo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684559224/Royal.png"
+    },
+    {
+        "id": 4,
+        "logo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684559537/ShopifyLogo.svg"
+    },
+    {
+        "id": 5,
+        "logo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684559388/Visaa.png"
+    }
+]

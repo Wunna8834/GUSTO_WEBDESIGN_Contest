@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Zara's Jacket",
+        "price": "192000Ks",
+        "category": "Casual wear",
+        "description": "Perfect design & Awesome quality",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684732033/Jean.jpg", 
+        "seller_photo": ""
+    },
+    {
+        "id": 2,
+        "name": "Zara's Jacket",
+        "price": "192000Ks",
+        "category": "Casual wear",
+        "description": "Perfect design & Awesome quality",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684732251/Zara.jpg", 
+        "seller_photo": ""
+    },
+    {
+        "id": 3,
+        "name": "Zara's Jacket",
+        "price": "192000Ks",
+        "category": "Casual wear",
+        "description": "Perfect design & Awesome quality",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684732033/Jean.jpg", 
+        "seller_photo": ""
+    },
+    {
+        "id": 4,
+        "name": "Zara's Jacket",
+        "price": "192000Ks",
+        "category": "Casual wear",
+        "description": "Perfect design & Awesome quality",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684732251/Zara.jpg", 
+        "seller_photo": ""
+    }
+]
+

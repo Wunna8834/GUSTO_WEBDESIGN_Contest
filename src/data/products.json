@@ -1,4 +1,4 @@
-[
+ [
     {
         "id": 1,
         "name": "Nike Air Jordan 1",
@@ -21,22 +21,62 @@
     },
     {
         "id": 3,
-        "name": "Running Shoes Puma",
+        "name": "Running Shoes",
         "price": "190000Ks",
         "category": "Sneakers",
-        "description": "US-9/UK-8/EUR-42/CM-27",
+        "description": "US-9/UK-8",
         "seller_name": "Phone Pyae Htoo",
         "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684550284/Puma.png", 
         "seller_photo": ""
     },
     {
         "id": 4,
-        "name": "VIVIENNE WESTWOOD",
+        "name": "Denim Jacket",
+        "price": "199000Ks",
+        "category": "Casual wear",
+        "description": "Zara Men's Denim Jackets",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684560980/Green.jpg", 
+        "seller_photo": ""
+    },
+    {
+        "id": 5,
+        "name": "Innisfree Clay Mask",
         "price": "35000Ks",
-        "category": "Leather bag",
-        "description": "You can easily carry things",
-        "seller_name": "Wunna Aung",
-        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684521627/backpack.jpg",
+        "category": "Skincare",
+        "description": "100ml",
+        "seller_name": "Su Pyae",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684553773/clay.jpg", 
+        "seller_photo": ""
+    },
+    {
+        "id": 6,
+        "name": "Innisfree Balancing Tonar",
+        "price": "47000Ks",
+        "category": "Skincare",
+        "description": "200ml",
+        "seller_name": "Su Pyae",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684553973/teatree.jpg", 
+        "seller_photo": ""
+    },
+    {
+        "id": 7,
+        "name": "Estee Lauder Advanced",
+        "price": "216000Ks",
+        "category": "Skincare",
+        "description": "50ml",
+        "seller_name": "Su Pyae",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684554231/nightcream.jpg", 
+        "seller_photo": ""
+    },
+    {
+        "id": 8,
+        "name": "Dior ESSENCE LOTION",
+        "price": "354000",
+        "category": "Skincare",
+        "description": "200ml",
+        "seller_name": "Su Pyae",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684552797/Estee.jpg", 
         "seller_photo": ""
     }
 ]

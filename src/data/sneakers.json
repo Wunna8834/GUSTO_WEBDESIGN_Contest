@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Jordan 1",
+        "price": "690000Ks",
+        "category": "Sneakers",
+        "description": "US-9.5 /UK-9/FR-43.5",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684520173/SizeChanges.png", 
+        "seller_photo": ""
+    },
+    {
+        "id": 2,
+        "name": "OZWEEGO PURE",
+        "price": "190000Ks",
+        "category": "Sneakers",
+        "description": "US-9.5 /UK-9/FR-43.5",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684549844/Addidas.png", 
+        "seller_photo": ""
+    },
+    {
+        "id": 3,
+        "name": "Running Shoes",
+        "price": "190000Ks",
+        "category": "Sneakers",
+        "description": "US-9/UK-8",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684550284/Puma.png", 
+        "seller_photo": ""
+    },
+    {
+        "id": 4,
+        "name": "Nike Dunk High",
+        "price": "650000Ks",
+        "category": "Sneakers",
+        "description": "US-5 /UK-2.5/FR-35.5",
+        "seller_name": "Phone Pyae Htoo",
+        "product_photo": "https://res.cloudinary.com/ddau1hn2z/image/upload/v1684731193/Dunk.png", 
+        "seller_photo": ""
+    }
+]
