@@ -8,6 +8,7 @@ import {MdOutlineGeneratingTokens} from 'react-icons/md'
 import {BsBookmarkCheck} from 'react-icons/bs'
 import {RiUserSettingsLine} from 'react-icons/ri'
 import {CiLogout} from 'react-icons/ci'
+import {BsActivity} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 const variants = {
   open: { opacity: 1, x: 0 },
@@ -41,7 +42,7 @@ export const UserMenu = ({handleHide}) => {
     {
       id: 5,
       name: "Recent Activites",
-      icon: <BsBookmarkCheck />
+      icon: <BsActivity />
     },
     {
       id: 6,
