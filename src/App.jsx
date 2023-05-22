@@ -17,6 +17,7 @@ import { Wallet } from './features/Wallet'
 import { Successful } from './pages/Successful'
 import { Token } from './features/Token'
 import { PaymentSuccessful } from './features/PaymentSuccessful'
+import { MainFoot } from './components/footers/MainFoot'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -42,6 +43,7 @@ function App() {
 
 
       </Routes>
+      <MainFoot/>
     </div>
   )
 }
