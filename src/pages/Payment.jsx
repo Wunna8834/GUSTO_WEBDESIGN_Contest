@@ -41,13 +41,13 @@ export const Payment = ({onClick, totalPrice}) => {
               <div
                 className="flex gap-2"
               >
-                <p className="text-base font-semibold text-gray-600">Total</p>
-                <p className="text-base font-semibold text-gray-500">
+                <p className="text-xl font-semibold text-gray-600">Total -</p>
+                <p className="text-xl font-semibold text-gray-500">
                   {totalPrice}
                 </p>
               </div>
 
-              <p className="text-lg font-semibold text-gray-500">Choose Payment</p>
+              <p className="text-md font-semibold text-gray-500">Choose Payment</p>
               <div className="flex flex-col lg:flex-row gap-2 items-center my-2">
                 
                 <div className="flex gap-2">
